@@ -2,16 +2,9 @@ name: My GitHub Actions Pipeline
 
 on:
   push:
-<<<<<<< HEAD
     branches: [ master ]
   pull_request:
     branches: [ master ]
-=======
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
->>>>>>> 5566ef2a93fd57b00b79fc85e6bb9587ccfdfc4b
-
 jobs:
   build:
     runs-on: ubuntu-latest
